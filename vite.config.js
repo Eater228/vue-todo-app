@@ -6,7 +6,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: 'https://github.com/Eater228/vue-todo-app.git',
+  base: '/vue-todo-app/',
   plugins: [
     vue(),
     vueDevTools(),
